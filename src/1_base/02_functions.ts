@@ -22,7 +22,7 @@ function logAnother(name: string, userId?: string): void {
 }
 
 // Работа со спред оператором
-function average(...nums: number[]) {
+export function average(...nums: number[]) {
     const sum = nums.reduce((current, total) => current + total, 0);
 
     return sum / nums.length
@@ -47,3 +47,4 @@ function slice(str: string, start: number, end?: number): string {
    
     return newStr;
   }
+
