@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.average = void 0;
 function sum(a, b) {
     return a + b;
 }
@@ -22,6 +24,7 @@ function average(...nums) {
     const sum = nums.reduce((current, total) => current + total, 0);
     return sum / nums.length;
 }
+exports.average = average;
 // Практика: выполнить типизацию функции
 function slice(str, start, end) {
     let newStr = '';
