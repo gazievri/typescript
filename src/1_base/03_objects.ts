@@ -17,3 +17,5 @@ const car: Car = {
     type: 'Sedan',
     isNew: false,
 }
+
+

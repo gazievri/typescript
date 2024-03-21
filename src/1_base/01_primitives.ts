@@ -19,3 +19,4 @@ abc = 'str';
 abc = [];
 
 let ab: unknown = 2;
+if (typeof ab=== 'string') ab.toUpperCase();
